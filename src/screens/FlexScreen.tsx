@@ -13,15 +13,16 @@ export const FlexScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
-    alignItems: 'flex-end',
+    alignItems: 'flex-start',
     backgroundColor: '#28C4D9',
     flex: 1,
     flexDirection: 'row',
-    justifyContent: 'flex-end',
+    justifyContent: 'flex-start',
   },
   box1: {
-    borderWidth: 2,
+    alignSelf: 'center',
     borderColor: 'white',
+    borderWidth: 2,
     fontSize: 30,
   },
   box2: {
