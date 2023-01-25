@@ -7,6 +7,21 @@ export const FlexScreen = () => {
       <Text style={ styles.box1 }>Box 1</Text>
       <Text style={ styles.box2 }>Box 2</Text>
       <Text style={ styles.box3 }>Box 3</Text>
+      <Text style={ styles.box1 }>Box 1</Text>
+      <Text style={ styles.box2 }>Box 2</Text>
+      <Text style={ styles.box3 }>Box 3</Text>
+      <Text style={ styles.box1 }>Box 1</Text>
+      <Text style={ styles.box2 }>Box 2</Text>
+      <Text style={ styles.box3 }>Box 3</Text>
+      <Text style={ styles.box1 }>Box 1</Text>
+      <Text style={ styles.box2 }>Box 2</Text>
+      <Text style={ styles.box3 }>Box 3</Text>
+      <Text style={ styles.box1 }>Box 1</Text>
+      <Text style={ styles.box2 }>Box 2</Text>
+      <Text style={ styles.box3 }>Box 3</Text>
+      <Text style={ styles.box1 }>Box 1</Text>
+      <Text style={ styles.box2 }>Box 2</Text>
+      <Text style={ styles.box3 }>Box 3</Text>
     </View>
   );
 };
@@ -15,12 +30,12 @@ const styles = StyleSheet.create({
   container: {
     alignItems: 'flex-start',
     backgroundColor: '#28C4D9',
+    justifyContent: 'center',
     flex: 1,
+    flexWrap: 'wrap',
     flexDirection: 'row',
-    justifyContent: 'flex-start',
   },
   box1: {
-    alignSelf: 'center',
     borderColor: 'white',
     borderWidth: 2,
     fontSize: 30,
