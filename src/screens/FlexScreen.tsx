@@ -13,9 +13,11 @@ export const FlexScreen = () => {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    alignItems: 'flex-end',
     backgroundColor: '#28C4D9',
-    justifyContent: 'center',
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
   },
   box1: {
     borderWidth: 2,
@@ -23,13 +25,13 @@ const styles = StyleSheet.create({
     fontSize: 30,
   },
   box2: {
-    borderWidth: 2,
     borderColor: 'white',
+    borderWidth: 2,
     fontSize: 30,
   },
   box3: {
-    borderWidth: 2,
     borderColor: 'white',
+    borderWidth: 2,
     fontSize: 30,
   },
 });
